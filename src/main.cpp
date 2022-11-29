@@ -18,7 +18,7 @@ AsyncWebSocket ws("/ws");
 const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE HTML><html>
 <head>
-  <title>ESP Web Server</title>
+  <title>Controle</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="data:,">
   <style>
@@ -82,13 +82,13 @@ const char index_html[] PROGMEM = R"rawliteral(
      font-weight: bold;
    }
   </style>
-<title>ESP Web Server</title>
+<title>Controle</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="data:,">
 </head>
 <body>
   <div class="topnav">
-    <h1>ESP WebSocket Server</h1>
+    <h1>Controle</h1>
   </div>
   <div class="content">
     <div class="card">
